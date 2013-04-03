@@ -1,50 +1,23 @@
-.tagline {
-	position:relative;
-	font-size:50px;
-	line-height:65px;
-	text-align:center;
+/*
+	
+	Exegesis Framework by Timothy Long
+	
+    - Demo Styles
+
+*/
+
+section {
+    margin: 3em 0;
 }
-.tagline div {
-	width:80%;
-	margin:0 auto;
+.col {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
-.tagline:after {
-	border-bottom:1px solid #ddd;
-	content:"";
-	display:block;
-	margin:50px 0;
-	width:50px;
+.grid .col {
+	background-color: #eee;
+    padding: 1em;
 }
-.tagline:before {
-	border-top:1px solid #ddd;
-	content:"";
-	display:block;
-	margin:50px 0;
-	width:50px;
-}
-.grid {
-	text-align:center;
-	background-color:#eee;
-	padding:50px 0;
-	color:#a6a6a6;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	border-radius:3px;
-}
-body {
-	font-weight:bold;
-}
-.cta {
-	text-align:center;
-	background-color:#ebe7d4;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	border-radius:3px;
-}
-.cta a {
-	display:block;
-	padding:20px;
-}
-.cta a:hover {
-	color: #c29533;
+.prelude {
+    color: #aaa;
 }
